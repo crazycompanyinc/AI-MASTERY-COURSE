@@ -1,5 +1,6 @@
-# Proyectos: Speech, Audio y Música con IA
+# Proyectos: Speech, Audio y Música
 
-Contenido del módulo Speech, Audio y Música con IA.
-
-Ver [lesson.md](lesson.md) para el contenido principal.
+1. **Transcriptor de podcasts**: Usa Whisper para transcribir episodios
+2. **Clonador de voz**: Usa XTTS para clonar una voz
+3. **Generador de música**: Usa MusicGen para crear pistas
+4. **Asistente de voz**: Combina STT + LLM + TTS

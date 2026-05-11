@@ -1,5 +1,7 @@
-# Lecturas adicionales: Speech, Audio y Música con IA
+# Lecturas adicionales: Speech, Audio y Música
 
-Contenido del módulo Speech, Audio y Música con IA.
-
-Ver [lesson.md](lesson.md) para el contenido principal.
+- Whisper paper: https://arxiv.org/abs/2212.04356
+- MusicGen paper: https://arxiv.org/abs/2306.05284
+- AudioCraft: https://github.com/facebookresearch/audiocraft
+- Hugging Face Audio course: https://huggingface.co/learn/audio-course
+- edge-tts: https://github.com/rany2/edge-tts

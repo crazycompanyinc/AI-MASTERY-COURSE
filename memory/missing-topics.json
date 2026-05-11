@@ -4,23 +4,19 @@
     "Interactive visualizations",
     "Video content links",
     "Quizzes with answer keys",
-    "Lab solutions",
-    "More exercises per module",
-    "Case studies for applied modules"
+    "Lab solutions"
   ],
   "medium_priority": [
     "Spanish translations for all modules",
     "More research-grade projects",
     "Industry case studies",
-    "Interview preparation guide",
-    "Cheat sheets per module"
+    "Interview preparation guide"
   ],
   "low_priority": [
     "Mobile app for course",
     "Community forum",
     "Certificate system",
-    "Progress tracking",
-    "Gamification"
+    "Progress tracking"
   ],
   "last_updated": "2026-05-11"
 }

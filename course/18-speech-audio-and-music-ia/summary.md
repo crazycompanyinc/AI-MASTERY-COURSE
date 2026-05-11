@@ -1,5 +1,3 @@
-# Resumen: Speech, Audio y Música con IA
+# Resumen: Speech, Audio y Música
 
-Contenido del módulo Speech, Audio y Música con IA.
-
-Ver [lesson.md](lesson.md) para el contenido principal.
+Whisper para transcripción, VITS/Bark para síntesis de voz, MusicGen para música.

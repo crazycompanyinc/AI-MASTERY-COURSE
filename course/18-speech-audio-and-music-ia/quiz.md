@@ -1,5 +1,7 @@
-# Quiz: Speech, Audio y Música con IA
+# Quiz: Speech, Audio y Música
 
-Contenido del módulo Speech, Audio y Música con IA.
-
-Ver [lesson.md](lesson.md) para el contenido principal.
+1. ¿Qué es Whisper y para qué sirve?
+2. ¿Cuál es la diferencia entre STT y TTS?
+3. ¿Qué es un espectrograma?
+4. ¿Qué modelo genera música a partir de texto?
+5. ¿Qué es CLAP?
