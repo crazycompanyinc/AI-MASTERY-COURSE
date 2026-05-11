@@ -1,0 +1,28 @@
+name: Daily Knowledge Expansion
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: pull-requests
+
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 feedparser pyyaml python-dateutil rich tqdm pydantic
+      - name: Run knowledge expansion
+        run: python automation/daily_knowledge_expansion.py
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: auto/knowledge-update
+          title: '📚 Daily Knowledge Expansion'
+          body: 'Automated knowledge expansion update'
+          commit-message: '📚 Daily knowledge expansion'

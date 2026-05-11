@@ -1,0 +1,18 @@
+{
+  "topics": {
+    "fundamentals": ["ai-history", "philosophy", "mathematics", "programming", "data"],
+    "core_ml": ["supervised-learning", "unsupervised-learning", "ensemble-methods", "feature-engineering"],
+    "deep_learning": ["neural-networks", "cnn", "rnn", "lstm", "transformers", "attention", "backpropagation"],
+    "nlp": ["tokenization", "embeddings", "word2vec", "bert", "gpt", "text-generation", "ner", "sentiment"],
+    "computer_vision": ["image-classification", "object-detection", "segmentation", "gan", "diffusion", "vit"],
+    "generative_ai": ["vae", "gan", "diffusion-models", "autoregressive", "flow-models"],
+    "llms": ["pre-training", "fine-tuning", "rlhf", "dpo", "lora", "quantization", "prompt-engineering"],
+    "rag": ["retrieval", "chunking", "vector-search", "reranking", "hybrid-search"],
+    "agents": ["react", "tools", "memory", "planning", "multi-agent", "langchain", "crewai"],
+    "mlops": ["mlflow", "docker", "kubernetes", "ci-cd", "monitoring", "drift"],
+    "safety": ["alignment", "red-teaming", "prompt-injection", "interpretability", "bias"],
+    "applications": ["business", "trading", "science", "medicine", "education", "legal"],
+    "frontier": ["agi", "world-models", "mamba", "moe", "multimodal", "embodied"]
+  },
+  "last_updated": "2026-05-11"
+}

@@ -1,0 +1,11 @@
+{
+  "sources": {
+    "academic": ["arxiv", "papers-with-code", "semantic-scholar", "openreview", "dblp"],
+    "courses": ["mit-ocw", "stanford-cs229", "berkeley-cs188", "deeplearning-ai", "fastai"],
+    "blogs": ["distill", "lilian-weng", "openai-blog", "anthropic-blog", "deepmind-blog", "huggingface-blog"],
+    "frameworks": ["pytorch", "tensorflow", "jax", "huggingface", "langchain", "llamaindex"],
+    "news": ["arxiv-rss", "hacker-news", "reddit-machine-learning"],
+    "youtube": ["3blue1brown", "andrej-karpathy", "yannic-kilcher", "two-minute-papers"]
+  },
+  "last_updated": "2026-05-11"
+}

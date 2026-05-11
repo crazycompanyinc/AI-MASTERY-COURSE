@@ -1,0 +1,17 @@
+{
+  "high": [
+    {"topic": "MCP (Model Context Protocol)", "module": "16-ai-agents"},
+    {"topic": "Mixture of Experts (MoE)", "module": "12-large-language-models"},
+    {"topic": "Vision Language Models", "module": "17-multimodal-ai"}
+  ],
+  "medium": [
+    {"topic": "Constitutional AI", "module": "22-ai-safety-alignment-and-security"},
+    {"topic": "State Space Models (Mamba)", "module": "28-frontier-research"},
+    {"topic": "Long-context techniques", "module": "12-large-language-models"}
+  ],
+  "low": [
+    {"topic": "Neuromorphic computing", "module": "28-frontier-research"},
+    {"topic": "Quantum ML", "module": "28-frontier-research"}
+  ],
+  "last_updated": "2026-05-11"
+}

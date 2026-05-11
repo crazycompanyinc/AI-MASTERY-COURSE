@@ -1,0 +1,58 @@
+site_name: AI-MASTERY-COURSE
+site_description: La biblioteca educativa abierta más grande sobre Inteligencia Artificial
+site_url: https://YOUR_USERNAME.github.io/AI-MASTERY-COURSE
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+
+nav:
+  - Inicio: index.md
+  - Curso: course.md
+  - Laboratorios: labs.md
+  - Proyectos: projects.md
+  - Papers: papers.md
+  - Glosario: glossary.md
+  - Roadmap: roadmap.md
+  - Actualizaciones: updates.md
+  - Contribuir: contribute.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR_USERNAME/AI-MASTERY-COURSE

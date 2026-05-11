@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*.log
+
+# Environment
+.env
+.env.local
+
+# MkDocs
+site/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+datasets/raw/
+datasets/processed/
+
+# Node
+node_modules/
+
+# Temporary
+tmp/
+temp/
+*.tmp

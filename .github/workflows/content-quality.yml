@@ -1,0 +1,25 @@
+name: Content Quality Check
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests pyyaml
+      - name: Validate course structure
+        run: python tools/validate_course_structure.py
+      - name: Check empty sections
+        run: python tools/check_empty_sections.py
+      - name: Check duplicates
+        run: python tools/check_duplicates.py
+      - name: Validate sources
+        run: python tools/validate_sources.py

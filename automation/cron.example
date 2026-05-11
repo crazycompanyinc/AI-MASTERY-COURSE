@@ -1,0 +1,23 @@
+# Cron Configuration for AI-MASTERY-COURSE
+# ==========================================
+# IMPORTANT: Replace /ABSOLUTE/PATH with the actual absolute path to this repository
+#
+# To find the absolute path, run:
+#   cd /path/to/AI-MASTERY-COURSE && pwd
+#
+# To install these crons:
+#   1. Open crontab: crontab -e
+#   2. Paste the lines below (with corrected paths)
+#   3. Save and exit
+#
+# To verify installation: crontab -l
+# To remove all crons: crontab -r
+
+# Daily Knowledge Expansion - 6:00 AM
+0 6 * * * cd /ABSOLUTE/PATH/AI-MASTERY-COURSE && .venv/bin/python automation/daily_knowledge_expansion.py >> logs/knowledge_expansion.log 2>&1
+
+# Daily AI News Update - 7:00 AM
+0 7 * * * cd /ABSOLUTE/PATH/AI-MASTERY-COURSE && .venv/bin/python automation/daily_news_update.py >> logs/news_update.log 2>&1
+
+# Daily Coverage Audit - 8:00 AM
+0 8 * * * cd /ABSOLUTE/PATH/AI-MASTERY-COURSE && .venv/bin/python automation/run_coverage_audit.py >> logs/coverage_audit.log 2>&1

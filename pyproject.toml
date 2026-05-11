@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "ai-mastery-course"
+version = "1.0.0"
+description = "La biblioteca educativa abierta más grande y actualizada sobre Inteligencia Artificial"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "AI-MASTERY-COURSE Contributors"}
+]
+keywords = ["ai", "machine-learning", "deep-learning", "education", "course", "llm", "nlp"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/AI-MASTERY-COURSE"
+Repository = "https://github.com/YOUR_USERNAME/AI-MASTERY-COURSE"
+Documentation = "https://YOUR_USERNAME.github.io/AI-MASTERY-COURSE"
+
+[tool.setuptools]
+packages = ["automation", "tools"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
